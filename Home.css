@@ -1,0 +1,61 @@
+.home__header {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+color: white;
+}
+
+.header__logo {
+    width: 250px;
+    height: auto;
+    opacity: 0.8;
+    transition: all 300ms ease;
+}
+
+.header__logo:hover {
+    opacity: 1;
+    scale: 1.02;
+}
+
+.header{
+letter-spacing: 1px;
+margin: 10px;
+}
+
+.sub__header {
+    font-weight: 500;
+letter-spacing: 1px;
+padding-bottom: 10px;
+}
+
+.button {
+background-color: #f76003ee;
+color: white;
+font-weight: 800;
+border-radius: 10px;
+padding: 10px 50px;
+margin: 20px;
+border: none;
+opacity: 0.7;
+transition: all 200ms ease;
+cursor: pointer;
+}
+
+.button:hover {
+    opacity: 1;
+    scale: 1.05;
+}
+
+.search__field {
+    margin: 30px;
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.movieSlider__header {
+    padding-top: 40px;
+}

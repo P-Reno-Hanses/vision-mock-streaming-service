@@ -1,0 +1,15 @@
+.app {
+    width: 100vw;
+    background-image: linear-gradient(to right, #000000, #423c01);
+    color: white !important;
+    /* background-color: black; */
+}
+
+html {
+    background-image: linear-gradient(to right, #000000, #423c01);
+
+}
+
+body {
+    overflow-x: hidden;
+}
